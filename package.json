@@ -1,0 +1,37 @@
+{
+    "name": "restful-api-ecommerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/v1/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haidang1810/restful-api-ecommerce.git"
+    },
+    "keywords": [
+        "restful",
+        "api",
+        "ecommerce"
+    ],
+    "author": "danghuynh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/haidang1810/restful-api-ecommerce/issues"
+    },
+    "homepage": "https://github.com/haidang1810/restful-api-ecommerce#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.6.5",
+        "winston": "^3.8.2",
+        "winston-daily-rotate-file": "^4.7.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
